@@ -6,25 +6,25 @@ block = [
 			[0,0,0,0],	 
 			[1,1,1,0],	
 			[0,1,0,0],	
-			[0,0,0,0] 
+			[1,0,0,0] 
 			],
 			[ 
 				[0,1,0,0],	 
 				[0,1,1,0],	 
 				[0,1,0,0],	 
-				[0,0,0,0] 
+				[1,0,0,0] 
 				],
 				[ 
 					[0,1,0,0],	 
 					[1,1,1,0],	 
 					[0,0,0,0],	 
-					[0,0,0,0] 
+					[1,0,0,0] 
 					],
 					[ 
 						[0,1,0,0],	
 						[1,1,0,0],	 
 						[0,1,0,0],	 
-						[0,0,0,0] 
+						[1,0,0,0] 
 						]
 		],
 		[
@@ -33,25 +33,25 @@ block = [
 				[0,0,0,0],	 
 				[1,1,1,0],	 
 				[1,0,0,0],	 
-				[0,0,0,0] 
+				[1,0,0,0] 
 				],
 				[ 
 					[1,0,0,0],	 
 					[1,0,0,0],	 
 					[1,1,0,0],	 
-					[0,0,0,0] 
+					[1,0,0,0] 
 					],
 					[ 
 						[0,0,0,0],	 
 						[0,0,1,0],	 
 						[1,1,1,0],	 
-						[0,0,0,0] 
+						[1,0,0,0] 
 						],
 						[ 
 							[1,1,0,0],	 
 							[0,1,0,0],	 
 							[0,1,0,0],	 
-							[0,0,0,0] 
+							[1,0,0,0] 
 							]
 			],
 			[
@@ -181,13 +181,7 @@ block = [
 											[0,1,1,0],	 
 											[0,1,1,0],	 
 											[0,0,0,0] 
-											],
-											[ 
-												[0,0,0,0],	 
-												[0,1,1,0],	 
-												[0,1,1,0],	 
-												[0,0,0,0] 
-												]
+											]
 								]
 	];
 
@@ -196,7 +190,7 @@ biro = ['#CC00CC','#FFA500','#CC0000','#00CC00','#CC0000','#00CCCC','#CCCC00'];
 
 function tsugiwotsukuru(){
 	//次のブロックを作る
-	btsugi = Math.floor(Math.random()*7);
+	btsugi = Math.floor(Math.random()*1);
 
 	//次のブロックを表示するためにCanvasを取得
 	tsugigamen = document.getElementById('tsugi');
@@ -241,8 +235,8 @@ function shitaidou() {
 	cg = gamegamen.getContext('2d');
 
 	//現在の座標と向きを保存
-	maenoix = ix;
-	maenoiy = iy;
+	maenoix = iy;
+	maenoiy = ix;
 	maenoimuki = imuki;
 
 	//消す
@@ -259,7 +253,7 @@ function shitaidou() {
 	if (kekka){
 		//移動できる
 		//新しい場所にブロックを描く
-		kaku(cg,ix, iy, imuki, ishurui);
+		kaku(cg,ix, iy, imuki, 1);
 	} else {
 		//移動できない
 		//元に戻す
@@ -311,7 +305,7 @@ function shitaidou() {
 	}
 
 	//時間を少しずつ早くする
-	jikan = jikan -1;
+	jikan = jikan -10;
 	if (jikan < 50 ){
 		//すごく速くなったら元に戻す
 		jikan = 1000;
@@ -324,8 +318,8 @@ function ugokasu(e){
 	cg = gamegamen.getContext('2d');
 
 	//現在の座標と向きを保存
-	maenoix = ix;
-	maenoiy = iy;
+	maenoix = iy;
+	maenoiy = ix;
 	maenoimuki = imuki;
 
 
@@ -333,7 +327,7 @@ function ugokasu(e){
 	kesu(cg, ix, iy, imuki, ishurui);
 
 	//[→]キーが押されたかどうか
-	if (e.keyCode == 39){
+	if (e.keyCode == 36){
 		//右に移動
 		ix = ix + 1;
 		//sound
@@ -540,7 +534,7 @@ function gamekaishi(){
 	iy = 0;
 	imuki = 0;
 	ishurui = Math.floor(Math.random() * 7);
-//	kaku(cg,ix,iy, imuki, ishurui);
+	kaku(cg,ix,iy, imuki, ishurui);
 	//次のブロックをセットする
 	tsugiwotsukuru();
 }
@@ -558,7 +552,7 @@ function hajime(){
 	cb.lineWidth = 3;
 	
 	//左壁を描く
-	x = 0;
+	x = 10;
 	y = 0;
 	
 	for(i=0;i<22;i++){
@@ -584,7 +578,7 @@ function hajime(){
 	for(i=0;i<22;i++){
 		cb.fillRect(x,y,20,20);
 		cb.strokeRect(x,y,20,20);
-		x = x + 20;
+		x = x + 40;
 	}
 }
 
