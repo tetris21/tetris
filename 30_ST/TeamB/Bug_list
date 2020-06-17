@@ -1,7 +1,7 @@
 No    問題                                                  見つけた日   SE名     ステータス　（調査中　⇒　調査完了　⇒　修正完了　⇒　レビュー完了　⇒　コミット完了）
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
 ST001   HTML_H1                                             20200604  Jeff      調査完了
-ST002   HTML_おなじブロックがずっとおしている　                20200610  Tarek     調査中
+ST002   HTML_おなじブロックがずっとおちている　                20200610  Tarek     調査中
 ST003   JS_右へ動いていません　                               20200610  Rafi      調査中
 ST004   Js_Multiple colors absence in single block          20200610  Sumaiya   調査中
 ST005   In the main screen it is always yellow block.       20200610  Saha      調査中
