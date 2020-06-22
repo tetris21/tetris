@@ -1,3 +1,12 @@
+JS:
+
 //2020/06/08 Jeff ST0005 start
   cg = gamegamen.getContext('3d');
 //2020/06/08 Jeff ST0005 end
+
+
+HTML:
+
+<!-- 2020/06/08 Jeff ST0005 start -->
+  cg = gamegamen.getContext('3d');
+<!-- 2020/06/08 Jeff ST0005 end -->
