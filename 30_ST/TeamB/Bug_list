@@ -5,4 +5,5 @@ ST002   JS_おなじブロックがずっとおちている　                20
 ST003   JS_右へ動いていません　                               20200610  Rafi      調査中
 ST004   Js_Multiple_colors_absence_in_single_block          20200610  Sumaiya   調査中
 ST005   JS_Main_screen_block_color_no_change                20200610  Saha      調査中
-ST006   JS_SUB_screen_always_two_colour_block               20200617  Saha
+ST006   JS_SUB_screen_always_two_colour_block               20200617  Saha      調査中
+ST007   HTML_JPサポート                                      20200624  Jeff      調査中   
