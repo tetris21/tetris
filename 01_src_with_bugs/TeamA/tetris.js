@@ -190,8 +190,9 @@ biro = ['#CC00CC','#FFA500','#CC0000','#00CC00','#CC0000','#00CCCC','#CCCC00'];
 
 function tsugiwotsukuru(){
 	//次のブロックを作る
-	btsugi = Math.floor(Math.random()*1);
-
+	//2020/06/29 プリンス ST0003 start
+	btsugi = Math.floor(Math.random()*7);
+	//2020/06/29 プリンス ST0003 end
 	//次のブロックを表示するためにCanvasを取得
 	tsugigamen = document.getElementById('tsugi');
 	ct = tsugigamen.getContext('2d');
