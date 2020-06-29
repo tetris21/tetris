@@ -327,7 +327,9 @@ function ugokasu(e){
 	kesu(cg, ix, iy, imuki, ishurui);
 
 	//[→]キーが押されたかどうか
-	if (e.keyCode == 36){
+	// 2020/06/22 シャゴル ST002 start
+	if (e.keyCode == 39){
+	// 2020/06/22 シャゴル ST002 end
 		//右に移動
 		ix = ix + 1;
 		//sound
