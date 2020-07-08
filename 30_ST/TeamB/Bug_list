@@ -9,3 +9,4 @@ ST006   JS_SUB_screen_always_two_colour_block               20200617  Saha      
 ST007   HTML_JPサポート                                      20200624  Jeff      修正完了   
 ST008   JS_左の壁は画面と完全に揃っていない　                  20200624  Tarek     調査中
 ST009   JS_次画面と親画面のボールックの色がちがう　　　　　　　　20200708  Saha
+ST010   ST010   JS_Square形のブロックが落ちているとき、UPボタンを2回以上クリックしたら、そのブロックが消えてしまいます。      20200708     Rafi
