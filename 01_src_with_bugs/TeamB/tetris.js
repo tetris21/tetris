@@ -190,9 +190,9 @@ biro = ['#CC00CC','#FFA500','#CC0000','#00CC00','#CC0000','#00CCCC','#CCCC00'];
 
 function tsugiwotsukuru(){
 	//次のブロックを作る
-       //2020/07/01_Sumaiya_ST0004_start
+       //2020/07/01 Sumaiya ST0004 start
 	btsugi = Math.floor(Math.random()*7);
-       //2020/07/01_sumaiya_ST0004_End
+       //2020/07/01 Sumaiya ST0004 end
 	
 	//次のブロックを表示するためにCanvasを取得
 	tsugigamen = document.getElementById('tsugi');
@@ -255,9 +255,9 @@ function shitaidou() {
 	if (kekka){
 		//移動できる
 		//新しい場所にブロックを描く
-		//2020/06/10 Saha ST0005 start
+		//2020/07/07 Saha ST0005 start
     　　　　　　　　kaku(cg,ix, iy, imuki,ishurui);
-     　　　　　　//2020/06/10 Saha ST0005 end
+     　　　　　　//2020/07/01 Saha ST0005 end
 	} else {
 		//移動できない
 		//元に戻す
