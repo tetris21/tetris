@@ -255,7 +255,9 @@ function shitaidou() {
 	if (kekka){
 		//移動できる
 		//新しい場所にブロックを描く
-		kaku(cg,ix, iy, imuki, 1);
+		//2020/06/10 Saha ST0005 start
+    　　　　　　　　kaku(cg,ix, iy, imuki,ishurui);
+     　　　　　　//2020/06/10 Saha ST0005 end
 	} else {
 		//移動できない
 		//元に戻す
