@@ -7,6 +7,6 @@ ST004   Js_Multiple_colors_absence_in_single_block          20200610  Sumaiya   
 ST005   JS_Main_screen_block_color_no_change                20200610  Saha      コミット完了 2020/07/01
 ST006   JS_SUB_screen_always_two_colour_block               20200617  Saha      中止（ST004と同じ）
 ST007   HTML_JPサポート                                      20200624  Jeff      修正完了   
-ST008   JS_左の壁は画面と完全に揃っていない　                  20200624  Tarek     コミット完了 2020/07/06
+ST008   JS_左の壁は画面と完全に揃っていない　                  20200624  Tarek     コミット完了 2020/07/08
 ST009   JS_次画面と親画面のボールックの色がちがう　　　　　　　　20200708  Saha
 ST010   JS_Square形のブロックが落ちているとき、UPボタンを2回以上クリックしたら、そのブロックが消えてしまいます。      20200708     Rafi
