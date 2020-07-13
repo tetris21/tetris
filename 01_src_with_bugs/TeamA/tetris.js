@@ -254,7 +254,9 @@ function shitaidou() {
 	if (kekka){
 		//移動できる
 		//新しい場所にブロックを描く
-		kaku(cg,ix, iy, imuki, 1);
+		//2020/07/13 プリンス ST007 start
+		kaku(cg,ix, iy, imuki, ishurui);
+		//2020/07/13 プリンス ST007 end
 	} else {
 		//移動できない
 		//元に戻す
