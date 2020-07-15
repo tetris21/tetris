@@ -595,7 +595,9 @@ function hajime(){
 	for(i=0;i<22;i++){
 		cb.fillRect(x,y,20,20);
 		cb.strokeRect(x,y,20,20);
-		x = x + 40;
+		// 2020/07/15 タレク ST012 start
+		x = x + 20;
+		// 2020/07/15 タレク ST012 finish
 	}
 }
 
