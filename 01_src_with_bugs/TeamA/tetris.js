@@ -236,8 +236,10 @@ function shitaidou() {
 	cg = gamegamen.getContext('2d');
 
 	//現在の座標と向きを保存
-	maenoix = iy;
-	maenoiy = ix;
+    //2020/07/06 Saiful ST008 Start
+    maenoix = ix;
+    maenoiy = iy;
+    //2020/07/06 Saiful ST008 End
 	maenoimuki = imuki;
 
 	//消す
