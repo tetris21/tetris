@@ -557,7 +557,9 @@ function hajime(){
 	cb.lineWidth = 3;
 	
 	//左壁を描く
-	x = 10;
+	// 2020/07/06 シャゴル ST006 start
+	x = 0;
+	// 2020/07/06 シャゴル ST006 end
 	y = 0;
 	
 	for(i=0;i<22;i++){
