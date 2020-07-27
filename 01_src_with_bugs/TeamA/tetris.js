@@ -325,8 +325,10 @@ function ugokasu(e){
 	cg = gamegamen.getContext('2d');
 
 	//現在の座標と向きを保存
-	maenoix = iy;
-	maenoiy = ix;
+	//2020/07/20 Saiful ST011 Start
+	maenoix = ix;
+	maenoiy = iy;
+	//2020/07/20 Saiful ST011 Start
 	maenoimuki = imuki;
 
 
