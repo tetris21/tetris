@@ -312,7 +312,9 @@ function shitaidou() {
 	}
 
 	//時間を少しずつ早くする
-	jikan = jikan -10;
+	// 2020/07/27 シャゴル ST012 start
+	jikan = jikan -1;
+	// 2020/07/27 シャゴル ST012 end
 	if (jikan < 50 ){
 		//すごく速くなったら元に戻す
 		jikan = 1000;
