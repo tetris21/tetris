@@ -324,7 +324,10 @@ function shitaidou() {
 	}
 
 	//時間を少しずつ早くする
-	jikan = jikan -10;
+	
+	// 2020/07/29 Rafi ST016 Start
+	jikan = jikan -1;
+	// 2020/07/29 Rafi ST016 Finish
 	if (jikan < 50 ){
 		//すごく速くなったら元に戻す
 		jikan = 1000;
